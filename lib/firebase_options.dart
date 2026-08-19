@@ -1,5 +1,5 @@
-// File generated from your Firebase project: smart-attendence-2abfc
-// https://console.firebase.google.com/project/smart-attendence-2abfc
+// File generated from your Firebase project: smart-attendance-79be5
+// https://console.firebase.google.com/project/smart-attendance-79be5
 
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
@@ -24,44 +24,41 @@ class DefaultFirebaseOptions {
 
   // ─── WEB ────────────────────────────────────────────────────────────────────
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCU7GIjpHc91bPjtSokUcGF6EhVdKOQT-A',
-    appId: '1:1094532655728:web:8f5bff4e3e5c7e470922b5',
-    messagingSenderId: '1094532655728',
-    projectId: 'smart-attendence-2abfc',
-    authDomain: 'smart-attendence-2abfc.firebaseapp.com',
-    storageBucket: 'smart-attendence-2abfc.firebasestorage.app',
-    measurementId: 'G-ZCDN1QJW85',
+    apiKey: 'AIzaSyDD9_lwEoUbsDazOxR-AG3xZHZtBF44Ntw',
+    appId: '1:637339576400:web:747b434d62c831b175c955',
+    messagingSenderId: '637339576400',
+    projectId: 'smart-attendance-79be5',
+    authDomain: 'smart-attendance-79be5.firebaseapp.com',
+    storageBucket: 'smart-attendance-79be5.firebasestorage.app',
+    measurementId: 'G-9E4QZ33J04',
   );
 
   // ─── ANDROID ────────────────────────────────────────────────────────────────
-  // Values from android/app/google-services.json
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBK2Wh5VxAfy-8AtshC_wzT0XdXjSkryqg',
-    appId: '1:1094532655728:android:6570386832fec7980922b5',
-    messagingSenderId: '1094532655728',
-    projectId: 'smart-attendence-2abfc',
-    storageBucket: 'smart-attendence-2abfc.firebasestorage.app',
+    apiKey: 'AIzaSyDD9_lwEoUbsDazOxR-AG3xZHZtBF44Ntw',
+    appId: '1:637339576400:web:747b434d62c831b175c955',
+    messagingSenderId: '637339576400',
+    projectId: 'smart-attendance-79be5',
+    storageBucket: 'smart-attendance-79be5.firebasestorage.app',
   );
 
   // ─── iOS ────────────────────────────────────────────────────────────────────
-  // TODO: Download GoogleService-Info.plist from Firebase Console → Project settings
-  //       → iOS app and place it in ios/Runner/
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCU7GIjpHc91bPjtSokUcGF6EhVdKOQT-A',
-    appId: '1:1094532655728:ios:REPLACE_WITH_IOS_APP_ID',
-    messagingSenderId: '1094532655728',
-    projectId: 'smart-attendence-2abfc',
-    storageBucket: 'smart-attendence-2abfc.firebasestorage.app',
+    apiKey: 'AIzaSyDD9_lwEoUbsDazOxR-AG3xZHZtBF44Ntw',
+    appId: '1:637339576400:web:747b434d62c831b175c955',
+    messagingSenderId: '637339576400',
+    projectId: 'smart-attendance-79be5',
+    storageBucket: 'smart-attendance-79be5.firebasestorage.app',
     iosBundleId: 'com.example.smartAttendanceApp',
   );
 
   // ─── WINDOWS ────────────────────────────────────────────────────────────────
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCU7GIjpHc91bPjtSokUcGF6EhVdKOQT-A',
-    appId: '1:1094532655728:web:8f5bff4e3e5c7e470922b5',
-    messagingSenderId: '1094532655728',
-    projectId: 'smart-attendence-2abfc',
-    storageBucket: 'smart-attendence-2abfc.firebasestorage.app',
-    measurementId: 'G-ZCDN1QJW85',
+    apiKey: 'AIzaSyDD9_lwEoUbsDazOxR-AG3xZHZtBF44Ntw',
+    appId: '1:637339576400:web:747b434d62c831b175c955',
+    messagingSenderId: '637339576400',
+    projectId: 'smart-attendance-79be5',
+    storageBucket: 'smart-attendance-79be5.firebasestorage.app',
+    measurementId: 'G-9E4QZ33J04',
   );
 }
