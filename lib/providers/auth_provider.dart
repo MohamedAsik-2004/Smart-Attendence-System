@@ -64,7 +64,14 @@ class AuthProvider extends ChangeNotifier {
       notifyListeners();
       return null;
     } on FirebaseAuthException catch (e) {
-      return e.message;
+      debugPrint('[AuthProvider] signIn error code: ${e.code}, message: ${e.message}');
+      if (e.code == 'user-not-found' || e.code == 'invalid-credential' || e.code == 'INVALID_LOGIN_CREDENTIALS') {
+        return 'Account not found or incorrect password. If you do not have an account, please click "Create account" to register first.';
+      }
+      if (e.code == 'wrong-password') {
+        return 'Incorrect password. Please try again.';
+      }
+      return e.message ?? 'Login failed (${e.code}).';
     } catch (e) {
       return e.toString();
     }
@@ -86,7 +93,14 @@ class AuthProvider extends ChangeNotifier {
       notifyListeners();
       return null;
     } on FirebaseAuthException catch (e) {
-      return e.message;
+      debugPrint('[AuthProvider] register error code: ${e.code}, message: ${e.message}');
+      if (e.code == 'email-already-in-use') {
+        return 'An account already exists with this email. Please login instead.';
+      }
+      if (e.code == 'weak-password') {
+        return 'Password should be at least 6 characters long.';
+      }
+      return e.message ?? 'Registration failed (${e.code}).';
     } catch (e) {
       return e.toString();
     }
