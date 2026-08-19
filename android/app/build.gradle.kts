@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "com.example.smart_attendance_app"
-    compileSdk = 34
+    compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
